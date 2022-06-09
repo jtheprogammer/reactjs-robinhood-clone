@@ -1,0 +1,91 @@
+.newsfeed {
+  border: 10px solid green;
+  flex: 0.75;
+  background-color: black;
+  color: white;
+}
+
+.newsfeed__container {
+  background-color: black;
+  font-size: 12px;
+  margin: 10px;
+}
+
+.newsfeed__chartContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsfeed__portfolioValues{
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.newsfeed__portfolioValues h1{
+  margin:0
+}
+
+.newsfeed__portfolioValues p{
+  margin-top: 0;
+}
+
+.newsfeed__chart {
+  width: 100%;
+}
+
+.newsfeed__buyingSection {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #3b4754;
+  border-bottom: 1px solid #3b4754;
+  padding: 20px 0px;
+  font-size: 10px;
+}
+
+.newsfeed__buyingSection h1 {
+  font-size: 15px;
+  padding: 0 5px;
+}
+
+.newsfeed__marketSection {
+  margin: 40px 0 35px 0;
+}
+
+.newsfeed__marketNews {
+  border: 1px solid #3b4754;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.newsfeed__marketNews p {
+  color: #7b858a;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.newsfeed__popularIntro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.newsfeed__popularIntro p {
+  color: lightgray;
+  font-size: 12.5px;
+}
+
+.newsfeed__popularBadges div {
+  cursor: pointer;
+}
+
+.newsfeed__popularBadges div:hover {
+ background-color: #353535 ;
+}
+
+.newsfeed__popularBadges svg {
+  padding-right: 10px;
+}

@@ -1,0 +1,63 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 67.5px;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 0.5px dashed black;;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.row:hover {
+  background-color: #31363a;
+}
+
+.row__intro {
+  width: 75px;
+  text-align: left;
+}
+
+.row__intro h1 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 2px;
+  text-align: left;
+}
+
+.row__intro p {
+  font-size: 16px;
+}
+
+.row__sharesButtons {
+  padding-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row__chart {
+  max-width: 30px;
+  padding-right: 40px;
+}
+
+.row__numbers {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.row__percentagePos {
+  color: #5ac53b;
+  font-size: 16px;
+}
+
+.row__percentageNeg {
+  color: #d4231d;
+  font-size: 16px;
+}
+
+.row__price {
+  padding-bottom: 4px;
+  font-size: 16px;
+}
